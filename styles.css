@@ -1,0 +1,81 @@
+/* Apply a style to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center align text within the resume container */
+.resume {
+    width: 800px;
+    margin: 50px auto;
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the resume header */
+.resume_header h1 {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.resume_header p {
+    font-size: 18px;
+    color: #777;
+}
+
+/* Style the profile image */
+.profile-image {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Style headings */
+h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Center align text within the resume content */
+.resume_content {
+    text-align: center;
+}
+
+/* Style the left section of the resume */
+.resume_left {
+    width: 45%;
+    margin: 0 auto;
+}
+
+/* Style the unordered list in the "Skills" section */
+.resume_left ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+}
+
+.resume_left ul li {
+    display: flex;
+    justify-content: center; /* Center-align list items */
+    margin-bottom: 20px;
+}
+
+/* Style the list content */
+.resume_left ul li:before {
+    content: '\2022'; /* Add a bullet character */
+    color: #333; /* Adjust bullet color as needed */
+    font-size: 20px;
+    margin-right: 10px; /* Adjust the space between bullet and content */
+}
